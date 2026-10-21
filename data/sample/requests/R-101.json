@@ -1,0 +1,31 @@
+{
+  "id": "R-101",
+  "submitted": "2026-10-12",
+  "requester": "req-4821",
+  "unit": "Learning and Development",
+  "title": "Independent evaluation of the staff mentoring pilot",
+  "need": "The mentoring pilot ran for nine months with two cohorts. Management must decide by the end of the first quarter whether to extend it to all departments, and there is no independent evidence of its effect yet.",
+  "objective": "An independent assessment of what the pilot changed for mentees and mentors, and a recommendation to extend, adapt or stop it.",
+  "scope": "Review programme records and the two cohort surveys; interview a sample of mentees, mentors and managers; compare with two peer programmes; present findings to the steering group. Out of scope: redesigning the programme.",
+  "deliverables": [
+    {
+      "item": "Inception note with method and interview sample",
+      "due": "2026-11-20"
+    },
+    {
+      "item": "Draft evaluation report",
+      "due": "2027-01-22"
+    },
+    {
+      "item": "Final report and presentation to the steering group",
+      "due": "2027-02-19"
+    }
+  ],
+  "start": "2026-11-09",
+  "end": "2027-02-26",
+  "estimated_value": 45000,
+  "budget_code": "LD-2026-114",
+  "qualifications": "Ten years of programme evaluation experience, including people-development programmes in international organisations.",
+  "supervisor_role": "Head of Learning and Development",
+  "handles_personal_data": true
+}

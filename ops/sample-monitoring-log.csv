@@ -1,0 +1,4 @@
+week,requests_through_desk_pct,complete_on_arrival_pct,officer_agreement_pct,screen_flags,screen_false_positives,agent_status_changes,sampled_review_errors,note
+1,62,55,92,1,1,0,,SAMPLE DATA - invented values showing the log format
+2,74,61,94,0,0,0,0,SAMPLE DATA - sampled review of 10 cases
+3,81,68,90,2,1,0,,SAMPLE DATA - one disagreement: framework scope (judgment)

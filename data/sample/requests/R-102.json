@@ -1,0 +1,32 @@
+{
+  "id": "R-102",
+  "submitted": "2026-10-14",
+  "requester": "req-1907",
+  "unit": "Country Programmes",
+  "title": "Monitoring dashboards for country programme results",
+  "category": "it_services",
+  "need": "Country teams report results in 40 spreadsheets that headquarters consolidates by hand each quarter, which takes about three weeks and delays portfolio reviews.",
+  "objective": "One application where country teams enter results once and managers see portfolio dashboards the same day.",
+  "scope": "Application development on the organisation's cloud platform: data entry forms, validation rules, role-based access, three management dashboards, handover and training. Out of scope: changing the results framework.",
+  "deliverables": [
+    {
+      "item": "Clickable prototype validated with three country teams",
+      "due": "2026-12-11"
+    },
+    {
+      "item": "Release 1 in production for pilot countries",
+      "due": "2027-03-05"
+    },
+    {
+      "item": "Handover documentation and training sessions",
+      "due": "2027-04-02"
+    }
+  ],
+  "start": "2026-11-16",
+  "end": "2027-04-16",
+  "estimated_value": 120000,
+  "budget_code": "CP-2026-031",
+  "qualifications": "Team with delivered public-sector data applications on the same cloud platform.",
+  "supervisor_role": "Chief of Results Management",
+  "handles_personal_data": false
+}

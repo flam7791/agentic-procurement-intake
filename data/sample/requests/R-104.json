@@ -1,0 +1,28 @@
+{
+  "id": "R-104",
+  "submitted": "2026-10-16",
+  "requester": "req-2264",
+  "unit": "Communications Office",
+  "category": "consulting_services",
+  "title": "Editorial review of the annual report",
+  "need": "The annual report goes to the governing board in December and needs an independent editorial review for clarity and consistency.",
+  "objective": "A board-ready text that reads consistently across chapters.",
+  "scope": "Structural and line edit of nine chapters, one round of revisions after author comments, a style sheet for future editions.",
+  "deliverables": [
+    {
+      "item": "Edited chapters with tracked changes",
+      "due": "2026-11-13"
+    },
+    {
+      "item": "Revised text after author comments and style sheet",
+      "due": "2026-11-27"
+    }
+  ],
+  "start": "2026-10-26",
+  "end": "2026-11-30",
+  "estimated_value": 9500,
+  "budget_code": "CO-2026-008",
+  "qualifications": "Professional editor with experience on institutional reports in English.",
+  "supervisor_role": "Publications Manager",
+  "handles_personal_data": false
+}

@@ -1,0 +1,182 @@
+{
+  "_note": "Sample procurement policy for the fictional Meridian Institute. Owned by the procurement unit, not by the product team: changing a number here is a policy decision. All figures in USD.",
+  "version": "2026-10",
+  "currency": "USD",
+  "aggregation_months": 12,
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Direct purchase (one quotation)",
+      "below": 10000
+    },
+    {
+      "id": "M2",
+      "name": "Request for quotations (at least three)",
+      "below": 150000
+    },
+    {
+      "id": "M3",
+      "name": "Open request for proposals",
+      "below": null
+    }
+  ],
+  "budget_holder_signoff_from": 50000,
+  "senior_officer_from": 150000,
+  "categories": {
+    "consulting_services": {
+      "label": "Consulting services",
+      "keywords": [
+        "consultant",
+        "consultancy",
+        "advisory",
+        "expert",
+        "evaluation",
+        "study",
+        "assessment",
+        "review"
+      ],
+      "queue": "Procurement - Consulting"
+    },
+    "it_services": {
+      "label": "IT services and software",
+      "keywords": [
+        "software",
+        "licence",
+        "license",
+        "platform",
+        "development",
+        "cloud",
+        "hosting",
+        "application",
+        "it support"
+      ],
+      "queue": "Procurement - IT"
+    },
+    "events_training": {
+      "label": "Events and training",
+      "keywords": [
+        "workshop",
+        "training",
+        "event",
+        "venue",
+        "conference",
+        "facilitation"
+      ],
+      "queue": "Procurement - General"
+    },
+    "language_services": {
+      "label": "Translation and interpretation",
+      "keywords": [
+        "translation",
+        "translate",
+        "interpretation",
+        "interpreter",
+        "localisation",
+        "localization"
+      ],
+      "queue": "Procurement - General"
+    },
+    "data_research": {
+      "label": "Data and research services",
+      "keywords": [
+        "dataset",
+        "data collection",
+        "survey",
+        "subscription",
+        "database",
+        "research data"
+      ],
+      "queue": "Procurement - Consulting"
+    }
+  },
+  "framework_agreements": [
+    {
+      "id": "FA-2025-07",
+      "category": "language_services",
+      "supplier": "Lingua Partners (fictional)",
+      "valid_until": "2027-06-30",
+      "ceiling_remaining": 400000
+    },
+    {
+      "id": "FA-2026-02",
+      "category": "it_services",
+      "supplier": "Northgate Digital (fictional)",
+      "valid_until": "2028-01-31",
+      "ceiling_remaining": 900000,
+      "scope_keywords": [
+        "development",
+        "application",
+        "platform",
+        "cloud"
+      ]
+    }
+  ],
+  "tor_sections": [
+    {
+      "id": "background",
+      "title": "Background",
+      "from": "need",
+      "required": true
+    },
+    {
+      "id": "objective",
+      "title": "Objective",
+      "from": "objective",
+      "required": true
+    },
+    {
+      "id": "scope",
+      "title": "Scope of work",
+      "from": "scope",
+      "required": true
+    },
+    {
+      "id": "deliverables",
+      "title": "Deliverables and timeline",
+      "from": "deliverables",
+      "required": true
+    },
+    {
+      "id": "qualifications",
+      "title": "Required qualifications",
+      "from": "qualifications",
+      "required": false
+    },
+    {
+      "id": "supervision",
+      "title": "Reporting and supervision",
+      "from": "supervisor_role",
+      "required": true
+    },
+    {
+      "id": "budget",
+      "title": "Budget and payment",
+      "from": "estimated_value",
+      "required": true
+    },
+    {
+      "id": "data",
+      "title": "Data protection and confidentiality",
+      "from": "handles_personal_data",
+      "required": true
+    },
+    {
+      "id": "evaluation",
+      "title": "Evaluation criteria",
+      "from": "method",
+      "required": false
+    }
+  ],
+  "roles": {
+    "_note": "Pseudonymous ids of the people who may act in each role. Owned by procurement; at pilot this comes from single sign-on groups.",
+    "procurement_officer": [
+      "po-17",
+      "po-22",
+      "po-31"
+    ],
+    "budget_holder": [
+      "bh-03",
+      "bh-08"
+    ]
+  }
+}
